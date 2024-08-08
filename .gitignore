@@ -1,33 +1,108 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ريليو - تطبيق الفيديوهات القصيرة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 15px;
+            background-color: #ff7043;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .btn-download {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .btn-download:hover {
+            background-color: #e64a19;
+        }
+        footer {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في ريليو!</h1>
+        <p>تطبيق الفيديوهات القصيرة المميز</p>
+    </header>
 
-# Local configuration file (sdk path, etc)
-local.properties
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#features">الميزات</a>
+        <a href="#download">تحميل التطبيق</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
 
-# Log/OS Files
-*.log
+    <div class="container" id="home">
+        <h2>حول ريليو</h2>
+        <p>ريليو هو تطبيق للفيديوهات القصيرة يتيح لك إنشاء ومشاركة محتوى إبداعي مع الأصدقاء والمتابعين. جربه الآن واستمتع بالتجربة!</p>
+    </div>
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+    <div class="container" id="features">
+        <h2>الميزات</h2>
+        <ul>
+            <li>سهولة الاستخدام</li>
+            <li>فلاتر وتأثيرات متنوعة</li>
+            <li>مشاركة سريعة عبر الشبكات الاجتماعية</li>
+        </ul>
+    </div>
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+    <div class="container" id="download">
+        <h2>تحميل التطبيق</h2>
+        <p>قم بتحميل ريليو الآن على جهازك:</p>
+        <a href="#" class="btn-download">تحميل من Google Play</a>
+        <a href="#" class="btn-download">تحميل من App Store</a>
+    </div>
 
-# Keystore files
-*.jks
-*.keystore
+    <div class="container" id="contact">
+        <h2>تواصل معنا</h2>
+        <p>إذا كان لديك أي استفسار أو اقتراح، لا تتردد في التواصل معنا.</p>
+        <p>البريد الإلكتروني: <a href="mailto:info@relioapp.com">info@relioapp.com</a></p>
+    </div>
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+    <footer>
+        <p>&#169; 2024 ريليو. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
